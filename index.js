@@ -234,4 +234,4 @@ client.on("message", (msg) => {
   }
 });
 
-client.login(process.env.Simphy-Token);
+client.login(process.env.Simphy_Token);
