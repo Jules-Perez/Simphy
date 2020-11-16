@@ -6,7 +6,6 @@ const simsimi = require("simsimi")({
 });
 client.friendsList = require("./friendsList.json");
 
-const token = "NzU5MzM1NTczODIyNjM2MDMy.X28AXA.rhh2VTlm7YAB7RqbCQB1-etfGz4";
 //250508511019139073 <- Mine
 //291219008542343169 <- Kuro
 const simpingUserID = "291219008542343169";
@@ -235,4 +234,4 @@ client.on("message", (msg) => {
   }
 });
 
-client.login(token);
+client.login(process.env.Simphy-Token);
